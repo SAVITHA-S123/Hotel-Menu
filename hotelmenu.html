@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Menu Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .menu-card {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .menu-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .menu-header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .menu-section {
+            margin-bottom: 20px;
+        }
+        .menu-section h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #000;
+            display: inline-block;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .menu-item p {
+            margin: 0;
+        }
+        .menu-item .item-info {
+            display: flex;
+            align-items: center;
+        }
+        .menu-item img {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-right: 15px;
+        }
+        .menu-item .item-name {
+            font-weight: bold;
+        }
+        .menu-item .item-price {
+            font-weight: bold;
+            color: #28a745;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-card">
+        <div class="menu-header">
+            <h1>Hotel Menu</h1>
+        </div>
+        <div class="menu-section">
+            <h2>Starters</h2>
+            <div class="menu-item">
+                <div class="item-info">
+                    <img src="https://via.placeholder.com/50" alt="Tomato Soup">
+                    <p class="item-name">Tomato Soup</p>
+                </div>
+                <p class="item-price">$5.00</p>
+            </div>
+            <div class="menu-item">
+                <div class="item-info">
+                    <img src="https://via.placeholder.com/50" alt="Caesar Salad">
+                    <p class="item-name">Caesar Salad</p>
+                </div>
+                <p class="item-price">$7.00</p>
+            </div>
+        </div>
+        <div class="menu-section">
+            <h2>Main Course</h2>
+            <div class="menu-item">
+                <div class="item-info">
+                    <img src="https://via.placeholder.com/50" alt="Grilled Chicken">
+                    <p class="item-name">Grilled Chicken</p>
+                </div>
+                <p class="item-price">$15.00</p>
+            </div>
+            <div class="menu-item">
+                <div class="item-info">
+                    <img src="https://via.placeholder.com/50" alt="Beef Steak">
+                    <p class="item-name">Beef Steak</p>
+                </div>
+                <p class="item-price">$20.00</p>
+            </div>
+        </div>
+        <div class="menu-section">
+            <h2>Desserts</h2>
+            <div class="menu-item">
+                <div class="item-info">
+                    <img src="https://via.placeholder.com/50" alt="Chocolate Cake">
+                    <p class="item-name">Chocolate Cake</p>
+                </div>
+                <p class="item-price">$6.00</p>
+            </div>
+            <div class="menu-item">
+                <div class="item-info">
+                    <img src="https://via.placeholder.com/50" alt="Ice Cream">
+                    <p class="item-name">Ice Cream</p>
+                </div>
+                <p class="item-price">$4.00</p>
+            </div>
+        </div>
+        <div class="menu-section">
+            <h2>Beverages</h2>
+            <div class="menu-item">
+                <div class="item-info">
+                    <img src="https://via.placeholder.com/50" alt="Coffee">
+                    <p class="item-name">Coffee</p>
+                </div>
+                <p class="item-price">$3.00</p>
+            </div>
+            <div class="menu-item">
+                <div class="item-info">
+                    <img src="https://via.placeholder.com/50" alt="Tea">
+                    <p class="item-name">Tea</p>
+                </div>
+                <p class="item-price">$2.50</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
